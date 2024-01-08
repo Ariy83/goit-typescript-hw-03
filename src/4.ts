@@ -26,7 +26,7 @@ abstract class House {
     }
   }
 
-  abstract OpenDoor(key: object): object;
+  abstract OpenDoor(key: object): void;
 }
 
 class MyHouse extends House {
